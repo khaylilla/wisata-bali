@@ -1,6 +1,6 @@
-# 🌴 Wisata Bali – Aplikasi Pariwisata Bali
+# 🌴 Wisata Bali – Web Pariwisata Bali
 
-**Wisata Bali** adalah platform mobile yang menyediakan informasi lengkap mengenai destinasi wisata di Bali. Aplikasi ini dilengkapi dengan fitur pencarian, rekomendasi destinasi, manajemen data wisata, serta sistem pemesanan tiket, baik untuk pengguna maupun admin.
+**Wisata Bali** adalah platform  yang menyediakan informasi lengkap mengenai destinasi wisata di Bali. Aplikasi ini dilengkapi dengan fitur pencarian, rekomendasi destinasi, manajemen data wisata, serta sistem pemesanan tiket, baik untuk pengguna maupun admin.
 
 ---
 
