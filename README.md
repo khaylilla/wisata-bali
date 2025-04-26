@@ -1,50 +1,99 @@
-# Welcome to your Expo app 👋
+🌴 Wisata Bali – Aplikasi Pariwisata Bali
+Wisata Bali adalah platform mobile yang menyediakan informasi lengkap mengenai destinasi wisata di Bali. Aplikasi ini dilengkapi dengan fitur pencarian, rekomendasi destinasi, manajemen data wisata, serta sistem pemesanan tiket, baik untuk pengguna maupun admin.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✨ Fitur Utama
+Untuk Pengguna:
+Beranda: Menampilkan banner dan rekomendasi destinasi wisata.
 
-## Get started
+Pencarian: Cari destinasi berdasarkan kata kunci.
 
-1. Install dependencies
+Daftar Destinasi: Informasi lengkap tentang tempat wisata (gambar, deskripsi, rating).
 
-   ```bash
-   npm install
-   ```
+Blog: Artikel-artikel menarik seputar wisata di Bali.
 
-2. Start the app
+Checkout Tiket: Memesan tiket wisata langsung dari aplikasi.
 
-   ```bash
-    npx expo start
-   ```
+Profil Pengguna & Login: Sistem otentikasi pengguna.
 
-In the output, you'll find options to open the app in a
+Untuk Admin:
+Dashboard: Menampilkan statistik kunjungan pengguna.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Manajemen Wisata: Tambah, edit, dan hapus destinasi wisata.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Manajemen Pengguna: Kelola akun pengguna dan admin.
 
-## Get a fresh project
+🧩 Komponen Utama
+Halaman Pengguna:
+HomeScreen.tsx – Beranda aplikasi.
 
-When you're ready, run:
+DestinationScreen.tsx – Daftar destinasi wisata.
 
-```bash
-npm run reset-project
-```
+DetailScreen.tsx – Detail informasi destinasi.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+CheckoutScreen.tsx – Halaman pemesanan tiket.
 
-## Learn more
+BlogScreen.tsx – Artikel wisata.
 
-To learn more about developing your project with Expo, look at the following resources:
+LoginScreen.tsx – Login pengguna.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Halaman Admin:
+Dashboard.tsx – Dashboard admin.
 
-## Join the community
+ManajemenWisata.tsx – Kelola data destinasi wisata.
 
-Join our community of developers creating universal apps.
+ManajemenUser.tsx – Kelola data pengguna.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+LoginAdmin.tsx – Login admin.
+
+Komponen Pendukung:
+Sistem navigasi menggunakan React Navigation.
+
+Manajemen state destinasi menggunakan Context API.
+
+Komponen UI kustom untuk tampilan yang konsisten.
+
+🛠️ Teknologi yang Digunakan
+React Native – Framework utama pengembangan aplikasi.
+
+TypeScript – Menjamin keamanan tipe data.
+
+React Navigation – Navigasi antar halaman.
+
+React Native Vector Icons – Ikon aplikasi.
+
+React Native Charts – Visualisasi data statistik (dashboard admin).
+
+Context API – Manajemen state aplikasi.
+
+🚀 Cara Menjalankan Aplikasi
+Clone repository:
+
+bash
+Salin
+Edit
+git clone <repository-url>
+Install dependencies:
+
+bash
+Salin
+Edit
+npm install
+Jalankan aplikasi:
+
+bash
+Salin
+Edit
+npx react-native run-android
+# atau
+npx react-native run-ios
+🧭 Struktur Navigasi
+Alur Pengguna:
+Home → Destination → Detail → Checkout
+
+Blog
+
+Login User
+
+Alur Admin:
+Login Admin → Dashboard → Manajemen Wisata/User
+
