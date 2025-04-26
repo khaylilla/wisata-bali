@@ -1,4 +1,4 @@
-# 🌴 Wisata Bali – Web Pariwisata
+# 🌴 Wisata Indonesia – Web Pariwisata
 
 **Web Pariwisata** adalah platform  yang menyediakan informasi lengkap mengenai destinasi wisata di indonesia. Aplikasi ini dilengkapi dengan fitur pencarian, rekomendasi destinasi, manajemen data wisata, serta sistem pemesanan tiket, baik untuk pengguna maupun admin.
 
